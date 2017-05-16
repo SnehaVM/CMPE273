@@ -1,0 +1,15 @@
+region: us-west-2
+
+function_name: order-update-function
+handler: service.handler
+role: pizza
+description: My hello world lambda function
+
+# if access key and secret are left blank, boto will use the credentials
+# defined in the [default] section of ~/.aws/credentials.
+aws_access_key_id: AKIAJOJEQQFYFHORKZEQ
+aws_secret_access_key: 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
+
+# dist_directory: dist
+# timeout: 15
+# memory_size: 512
